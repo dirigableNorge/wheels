@@ -1,0 +1,10 @@
+{
+  "name": "wheels",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "repository": "git@github.com:dirigableNorge/wheels.git",
+  "author": "Tarasyi",
+  "license": "MIT",
+  "private": false
+}
