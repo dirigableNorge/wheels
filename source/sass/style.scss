@@ -31,6 +31,9 @@ img {
   border-style: none;
 }
 
+@import "blocks/wrapper.scss";
+@import "blocks/page-header.scss";
+
 .hidden {
   display: none;
 }
