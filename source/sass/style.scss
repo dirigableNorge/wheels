@@ -1,0 +1,36 @@
+@import "fonts.scss";
+@import "colours.scss";
+@import "visually-hidden.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  color: black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+.hidden {
+  display: none;
+}

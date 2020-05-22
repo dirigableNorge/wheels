@@ -133,7 +133,7 @@ gulp.task('server', () => {
   gulp.watch("source/js/*.js", gulp.series('js-min', 'refresh'));
 });
 
-gulp.task('build', gulp.series('clean', 'copy', 'css', 'css-min', 'js-min', 'images', 'webp', 'svgo', 'svg-sprite', 'html'));
+gulp.task('build', gulp.series('clean', 'copy', 'css', 'css-min', 'js-min', 'images', 'svgo', 'svg-sprite', 'html'));
 gulp.task('start', gulp.series('build', 'server'));
 
 

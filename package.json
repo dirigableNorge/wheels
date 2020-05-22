@@ -6,7 +6,7 @@
   "author": "Tarasyi",
   "license": "MIT",
   "private": true,
-  "scripts":{
+  "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig && npm run stylelint",
@@ -19,6 +19,7 @@
     "autoprefixer": "9.8.0",
     "browser-sync": "2.26.7",
     "del": "5.1.0",
+    "gulp": "4.0.2",
     "gulp-csso": "4.0.1",
     "gulp-htmlmin": "5.0.1",
     "gulp-imagemin": "7.1.0",
