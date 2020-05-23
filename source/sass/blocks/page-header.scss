@@ -6,3 +6,92 @@
   background-position: center top;
   background-size: cover;
 }
+
+.page-header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 116px;
+}
+
+.page-header__nav {
+  display: none;
+}
+
+.page-header__nav-toggle-button {
+  margin-left: auto;
+  padding: 0;
+  padding-right: 26px;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: inherit;
+  background-color: transparent;
+  background-image: url("../img/burger-icon.png");
+  background-repeat: no-repeat;
+  background-position: right top 2px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+}
+
+.page-header__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 386px;
+  padding-bottom: 86px;
+}
+
+.page-header__welcome {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.page-header__welcome-title {
+  margin: 0;
+  margin-bottom: 17px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.page-header__welcome-text {
+  max-width: 390px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.125em;
+  text-align: right;
+}
+
+.page-header__welcome-caption {
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.125em;
+  text-align: right;
+}
+
+.page-header__intro-next-button {
+  width: 24px;
+  height: 39px;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  background-color: transparent;
+  background-image: url("../img/scroll-button.png");
+  border: none;
+  cursor: pointer;
+}
