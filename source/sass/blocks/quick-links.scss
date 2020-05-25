@@ -1,0 +1,33 @@
+.quick-links__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.quick-links__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quick-links__item {
+  margin-bottom: 17px;
+}
+
+.quick-links__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+}

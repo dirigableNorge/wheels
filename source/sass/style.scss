@@ -32,12 +32,14 @@ img {
 }
 
 @import "blocks/wrapper.scss";
+@import "blocks/quick-links.scss";
 @import "blocks/page-header.scss";
 @import "blocks/about-us.scss";
 @import "blocks/statistics.scss";
 @import "blocks/featured-products.scss";
 @import "blocks/team.scss";
 @import "blocks/social-showcase.scss";
+@import "blocks/page-footer.scss";
 
 .hidden {
   display: none;
