@@ -1,0 +1,58 @@
+.social-showcase__wrapper {
+  padding-top: 66px;
+  padding-bottom: 57px;
+}
+
+.social-showcase__title {
+  margin: 0;
+  margin-bottom: 17px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-align: center;
+  color: $main-dark;
+}
+
+.social-showcase__slogan {
+  margin: 0;
+  margin-bottom: 55px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  color: $text-dark2;
+}
+
+.social-showcase__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 66px;
+  padding: 0;
+  list-style: none;
+}
+
+.social-showcase__offer {
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-align: center;
+  color: $main-dark;
+}
+
+.social-showcase__link {
+  color: $main-dark;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+}
