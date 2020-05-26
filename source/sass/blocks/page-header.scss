@@ -1,4 +1,9 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 86px;
   color: $main-light;
   background-color: $main-dark;
   background-image: url("../img/bg-image.jpg");
@@ -7,14 +12,34 @@
   background-size: cover;
 }
 
-.page-header__wrapper {
+.page-header__menu {
+  width: 100%;
+
+  .page-header__logo-image--dark {
+    display: none;
+  }
+}
+
+.page-header__menu-wrapper {
   display: flex;
-  flex-wrap: wrap;
   padding-top: 116px;
 }
 
 .page-header__nav {
   display: none;
+}
+
+.page-header__nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
 }
 
 .page-header__nav-toggle-button {
@@ -39,13 +64,62 @@
   }
 }
 
+.page-header__menu--stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 27px rgba(black, 0.16);
+
+  .page-header__menu-wrapper {
+    align-items: center;
+    min-height: 82px;
+    padding: 0;
+  }
+
+  .page-header__logo {
+    margin-right: auto;
+  }
+
+  .page-header__logo-image--light {
+    display: none;
+  }
+
+  .page-header__nav-toggle-button {
+    display: none;
+  }
+
+  .page-header__logo-image--dark {
+    display: block;
+  }
+
+  .page-header__nav {
+    display: block;
+  }
+
+  .page-header__nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page-header__nav-item:not(:last-child) {
+    margin-right: 110px;
+  }
+
+  .page-header__nav-link {
+    color: $text-dark2;
+  }
+}
+
 .page-header__intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding-top: 386px;
-  padding-bottom: 86px;
+  margin-top: auto;
 }
 
 .page-header__welcome {
@@ -54,7 +128,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 240px;
 }
 
 .page-header__welcome-title {
@@ -69,7 +142,7 @@
 }
 
 .page-header__welcome-text {
-  max-width: 390px;
+  max-width: 410px;
   margin: 0;
   font-size: 24px;
   line-height: 40px;
@@ -85,13 +158,16 @@
 }
 
 .page-header__intro-next-button {
-  width: 24px;
-  height: 39px;
+  width: 45px;
+  height: 67px;
+  margin-top: auto;
   padding: 0;
   font-size: 0;
   line-height: 0;
   background-color: transparent;
   background-image: url("../img/scroll-button.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border: none;
   cursor: pointer;
 }
